@@ -23,15 +23,12 @@ def main():
 
     A_k = DFT(a_n)
     B_k = DFT(b_n)
+    C_k = A_k*B_k
+    c_n = IDFT(C_k).real
 
     print("A_k = ", A_k)
     print("B_k = ", B_k)
-
-    C_k = A_k*B_k
     print("C_k = ", C_k)
-
-    c_n = IDFT(C_k).real
-
     print("C_n = ", c_n)
 
 main()
