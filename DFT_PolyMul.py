@@ -31,4 +31,5 @@ def main():
     print("C_k = ", C_k)
     print("C_n = ", c_n)
 
-main()
+if __name__ == '__main__':
+    main()
