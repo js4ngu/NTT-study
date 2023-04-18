@@ -18,8 +18,8 @@ def IDFT(X):
 
 def func_test():
     print("FFT/IFF test")
-    a_t = np.array([3, 2, 1, 0])
-    b_t = np.array([6, 5, 4, 0])
+    a_t = np.array([3, 2, 1, 0, 4, 5, 6, 1, 2])
+    b_t = np.array([6, 5, 4, 0, 4, 5, 6, 1, 2])
 
     A_t = DFT(a_t)
     B_t = DFT(b_t)
@@ -31,8 +31,8 @@ def func_test():
     print("C_k = ", C_t)
     print("C_n = ", c_n_t)
 
-    a_n = np.array([3, 2, 1, 0])
-    b_n = np.array([6, 5, 4, 0])
+    a_n = np.array([3, 2, 1, 0, 4, 5, 6, 1, 2])
+    b_n = np.array([6, 5, 4, 0, 4, 5, 6, 1, 2])
 
     print("DFT/IDFT test")
     A_k = DFT(a_n)

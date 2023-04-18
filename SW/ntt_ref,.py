@@ -76,7 +76,8 @@ def NegativeWrappedConv():
     print("C = A * B  = ",c_out)
 
     res = inverse_transform(c_out,w,p) * invs_psi_vec
-    print("c = iNTT(c)= ", res % p)
+    res = res % p
+    print("c = iNTT(c)= ", res)
 
 def main():
     print("=====NTT MUL=====")
