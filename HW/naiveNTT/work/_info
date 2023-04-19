@@ -1,0 +1,84 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\altera\13.1
+vdataSlice
+Z1 !s100 8W:dn;47BVzf[Gk:6N;9W1
+Z2 I[XFXgfJ@eBb[8H8[AL8[m3
+Z3 V`ZJ`=HRkOa8zncZ3UHmEe1
+Z4 dC:\File\zkp\Lab\NTT-study\HW\naiveNTT
+Z5 w1681889748
+Z6 8C:/File/zkp/Lab/NTT-study/HW/naiveNTT/dataslice.v
+Z7 FC:/File/zkp/Lab/NTT-study/HW/naiveNTT/dataslice.v
+L0 1
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -reportprogress|300|-work|work|C:/File/zkp/Lab/NTT-study/HW/naiveNTT/dataslice.v|
+Z10 o-work work -O0
+Z11 ndata@slice
+Z12 !s108 1681898025.535000
+Z13 !s107 C:/File/zkp/Lab/NTT-study/HW/naiveNTT/dataslice.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vdataslice_tb
+!i10b 1
+Z14 !s100 QMgm^I3L;KdXO3M^75Sb<0
+Z15 I;@kZ3?e=WWO0O@dQk3;I83
+Z16 VUg5Y2:gWkS5KMNNk1e?m;1
+R4
+Z17 w1681889989
+Z18 8C:/File/zkp/Lab/NTT-study/HW/naiveNTT/tb_dataslice.v
+Z19 FC:/File/zkp/Lab/NTT-study/HW/naiveNTT/tb_dataslice.v
+L0 1
+R8
+r1
+!s85 0
+31
+!s108 1681898025.724000
+!s107 C:/File/zkp/Lab/NTT-study/HW/naiveNTT/tb_dataslice.v|
+Z20 !s90 -reportprogress|300|-work|work|C:/File/zkp/Lab/NTT-study/HW/naiveNTT/tb_dataslice.v|
+!s101 -O0
+R10
+vnaiveNTT
+Z21 I9YNVc064Ri]mP>lUDIKVm2
+Z22 VeS:Hi<]FjVA:BKPDG<V`T2
+R4
+Z23 w1681897675
+Z24 8C:/File/zkp/Lab/NTT-study/HW/naiveNTT/naive.v
+Z25 FC:/File/zkp/Lab/NTT-study/HW/naiveNTT/naive.v
+L0 1
+R8
+r1
+31
+R10
+Z26 nnaive@n@t@t
+Z27 !s100 7[<m19Rj:?:]3>[on3a3S3
+Z28 !s108 1681898025.631000
+Z29 !s107 C:/File/zkp/Lab/NTT-study/HW/naiveNTT/naive.v|
+Z30 !s90 -reportprogress|300|-work|work|C:/File/zkp/Lab/NTT-study/HW/naiveNTT/naive.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vnaiveNTT_tb
+Z31 Idj>COV7FT6znD@2?AeSL=2
+Z32 VO7PAmW?6HVjIOmld;Fl7g1
+R4
+Z33 w1681898023
+Z34 8C:/File/zkp/Lab/NTT-study/HW/naiveNTT/tb_naive.v
+Z35 FC:/File/zkp/Lab/NTT-study/HW/naiveNTT/tb_naive.v
+L0 3
+R8
+r1
+31
+Z36 !s90 -reportprogress|300|-work|work|C:/File/zkp/Lab/NTT-study/HW/naiveNTT/tb_naive.v|
+R10
+Z37 nnaive@n@t@t_tb
+!i10b 1
+Z38 !s100 WmnI4WBmfKkYJ2D4kb09S1
+!s85 0
+Z39 !s108 1681898025.677000
+Z40 !s107 C:/File/zkp/Lab/NTT-study/HW/naiveNTT/tb_naive.v|
+!s101 -O0

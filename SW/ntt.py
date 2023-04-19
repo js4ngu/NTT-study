@@ -19,12 +19,8 @@ def cooley_tukey_ntt(a, q, omegas):
             out[i] ^= out[rev_i]
             out[rev_i] ^= out[i]
             out[i] ^= out[rev_i]
+    iterations = int(math.log2(n))
 
-    log2n = math.log2(n)
-    # The length of the input array `a` should be a power of 2.
-    assert log2n.is_integer()
-    
-    iterations = int(log2n)
     M = 2
     for _ in range(iterations):
         for i in range(0, n, M):
@@ -47,7 +43,7 @@ def demo():
     w = [1, 9, 13, 15, 16, 8, 4, 2]
     A = cooley_tukey_ntt(a,mod,w)
     print("=====")
-    print("mod, w, a : ",mod ,w, a)
+    print("mod, w: ",mod ,w)
     print(A)
     print("[6, 7, 7, 9, 2, 5, 6, 0]")
 

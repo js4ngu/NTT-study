@@ -1,0 +1,33 @@
+/*
+    a = [3,0,1,2,0,0,0,0]
+    A = [6,8,11,12,2,6,10,3]
+    n = 8
+    mod = 17
+    omega = 15
+*/
+module naiveNTT (
+    //input              CLK,
+    //input              rst,
+    input      [64:0]   a
+
+    );
+    reg [7:0] i,j,temp;
+    reg [31:0] factor;
+    reg [7:0] a_array [7:0];
+
+    always @(posedge CLK) begin
+        if (rst == 1) begin
+        end
+        else begin
+            for (i = 0; i < 8; i = i + 1) begin
+                temp <= 0;
+                for (j = 0;j < 8;j = j + 1) begin
+                    factor <= (omega ** (i*j))%mod;
+                    temp <= (a_array[j] * factor) % mod;
+                    A[i] <= temp;
+                end
+            end
+        end
+    end
+
+endmodule 
