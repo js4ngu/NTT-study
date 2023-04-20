@@ -30,15 +30,23 @@ always @(*) begin
     end
 
     for (i = 0; i < 8; i = i + 1) begin
-        temp <= 0;
+        temp = 0;
+
+        //calc NTT
         for (j = 0;j < 8;j = j + 1) begin
-            factor <= 1;
+            factor = 1;
+            //pow
             for (k = 0; k < i*j; k = k+1) begin
-                factor <= (factor * omega) % mod;
+                factor = (factor * omega) % mod;
             end
-            temp <= (temp + (input_array[j] * factor)) % mod;
+            temp = (temp + (input_array[j] * factor)) % mod;
         end
-        output_array[i] <= temp;
+
+        //move to another array
+        for (j=0; j<8; j=j+1) begin
+            output_array[i][j] = temp[0];
+            temp = temp >> 1;
+        end
     end
 end
 

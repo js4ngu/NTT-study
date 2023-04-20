@@ -26,11 +26,4 @@ Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 Top level modules:
 	dataslice_tb
 
-} {} {}} C:/File/zkp/Lab/NTT-study/HW/naiveNTT/tb_naive.v {1 {vlog -work work C:/File/zkp/Lab/NTT-study/HW/naiveNTT/tb_naive.v
-Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
--- Compiling module naiveNTT_tb
-
-Top level modules:
-	naiveNTT_tb
-
 } {} {}}

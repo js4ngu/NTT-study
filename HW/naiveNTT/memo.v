@@ -30,15 +30,12 @@ always @(*) begin
     end
 
     for (i = 0; i < 8; i = i + 1) begin
-        temp <= 0;
-        for (j = 0;j < 8;j = j + 1) begin
-            factor <= 1;
-            for (k = 0; k < i*j; k = k+1) begin
-                factor <= (factor * omega) % mod;
-            end
-            temp <= (temp + (input_array[j] * factor)) % mod;
+        temp <= input_array[i] * 2;
+        
+        for (j=0; j<8; j=j+1) begin
+            output_array[i][j] = temp[0];
+            temp = temp >> 1;
         end
-        output_array[i] <= temp;
     end
 end
 

@@ -15,10 +15,10 @@ module naiveNTT_tb;
     wire [7:0] o7;
 
     initial begin
-        omega = 15;
         mod = 17;
-        //datain = 64'h0000000002010003; //target
-        datain = 64'h0300020100000000; //target
+        omega = 9;
+        //datain = 64'h03_01_02_06_00_00_00_00; //target
+        datain = 64'h00_00_00_00_06_02_01_03; //target - Clear! ; output also reverse
         #10
         $finish;
     end
