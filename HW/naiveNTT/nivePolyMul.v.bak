@@ -1,0 +1,71 @@
+//invN 15;
+
+module naiveNTTPolyMul (
+    input [63:0] data_a,
+    input [63:0] data_b,
+
+    input [7:0] mod,
+    input [7:0] omega,
+    input [7:0] invOmega,
+
+    input [7:0] invN,
+
+    output [63:0] result
+);
+    wire [63:0] data_A_in;
+    wire [63:0] data_B_in;
+    wire [63:0] data_C_in;
+    reg [7:0] data_A_array [0:7];
+    reg [7:0] data_B_array [0:7];
+    reg [7:0] data_C_array [0:7];
+    
+    reg [63:0] slice_temp_a, slice_temp_b;
+    reg [7:0] i, j, k;
+
+    naiveNTT u0(
+        .data_in(data_a),
+        .omega(omega),
+        .mod(mod),
+        .data_out(data_A_in)
+    );
+
+    naiveNTT u1(
+        .data_in(data_b),
+        .omega(omega),
+        .mod(mod),
+        .data_out(data_B_in)
+    );
+
+    always @(*) begin
+        slice_temp_a = data_A_in;
+        slice_temp_b = data_B_in;
+
+        for (i=0; i<8; i = i+1) begin
+            for (j=0; j<8; j=j+1) begin
+                data_A_array[i][j] = slice_temp_a[0];
+                data_B_array[i][j] = slice_temp_b[0];
+                slice_temp_a = slice_temp_a >> 1;
+                slice_temp_b = slice_temp_b >> 1;
+
+            end
+        end
+        data_C_array[0] = (data_A_array[0] * data_B_array[0]) % mod;
+        data_C_array[1] = (data_A_array[1] * data_B_array[1]) % mod;
+        data_C_array[2] = (data_A_array[2] * data_B_array[2]) % mod;
+        data_C_array[3] = (data_A_array[3] * data_B_array[3]) % mod;
+        data_C_array[4] = (data_A_array[4] * data_B_array[4]) % mod;
+        data_C_array[5] = (data_A_array[5] * data_B_array[5]) % mod;
+        data_C_array[6] = (data_A_array[6] * data_B_array[6]) % mod;
+        data_C_array[7] = (data_A_array[7] * data_B_array[7]) % mod;
+    end
+
+    assign data_C_in ={data_C_array[0], data_C_array[1], data_C_array[2], data_C_array[3], data_C_array[4], data_C_array[5], data_C_array[6], data_C_array[7] };
+
+    naiveINTT u2(
+        .data_in(data_C_in),
+        .invN(invN),
+        .invOmega(invOmega),
+        .mod(mod),
+        .data_out(result)
+    );
+endmodule

@@ -32,7 +32,7 @@ def inverse_transform(invec: List[int], root: int, mod: int) -> List[int]:
 
 
 def nttMUL_test():
-    a = np.array([3,0,2,1,0,0,0,0])
+    a = np.array([3,0,1,2,0,0,0,0])
     b = np.array([0,2,2,3,0,0,0,0])
     p = 17
     w = 15

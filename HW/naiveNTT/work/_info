@@ -18,7 +18,7 @@ r1
 Z9 !s90 -reportprogress|300|-work|work|C:/File/zkp/Lab/NTT-study/HW/naiveNTT/dataslice.v|
 Z10 o-work work -O0
 Z11 ndata@slice
-Z12 !s108 1681979102.219000
+Z12 !s108 1682314391.917000
 Z13 !s107 C:/File/zkp/Lab/NTT-study/HW/naiveNTT/dataslice.v|
 !i10b 1
 !s85 0
@@ -37,88 +37,128 @@ r1
 31
 Z20 !s90 -reportprogress|300|-work|work|C:/File/zkp/Lab/NTT-study/HW/naiveNTT/tb_dataslice.v|
 R10
-Z21 !s108 1681979102.407000
+Z21 !s108 1682314392.113000
 Z22 !s107 C:/File/zkp/Lab/NTT-study/HW/naiveNTT/tb_dataslice.v|
 !i10b 1
 !s85 0
 !s101 -O0
 vnaiveINTT
-Z23 IzOh[NUfhzkcNEFzn7ozUO2
-Z24 VRbl5L>6^kFdD@cQHjJBL]1
+Z23 !s100 ?E=g@A267PfQi1X3H2=8?2
+Z24 IzOh[NUfhzkcNEFzn7ozUO2
+Z25 VRbl5L>6^kFdD@cQHjJBL]1
 R4
-Z25 w1681979065
-Z26 8C:/File/zkp/Lab/NTT-study/HW/naiveNTT/naiveINTT.v
-Z27 FC:/File/zkp/Lab/NTT-study/HW/naiveNTT/naiveINTT.v
+Z26 w1681986013
+Z27 8C:/File/zkp/Lab/NTT-study/HW/naiveNTT/naiveINTT.v
+Z28 FC:/File/zkp/Lab/NTT-study/HW/naiveNTT/naiveINTT.v
 L0 1
 R8
 r1
 31
+Z29 !s90 -reportprogress|300|-work|work|C:/File/zkp/Lab/NTT-study/HW/naiveNTT/naiveINTT.v|
 R10
-Z28 nnaive@i@n@t@t
+Z30 nnaive@i@n@t@t
+Z31 !s108 1682314392.166000
+Z32 !s107 C:/File/zkp/Lab/NTT-study/HW/naiveNTT/naiveINTT.v|
 !i10b 1
-Z29 !s100 ?E=g@A267PfQi1X3H2=8?2
 !s85 0
-Z30 !s108 1681979102.453000
-Z31 !s107 C:/File/zkp/Lab/NTT-study/HW/naiveNTT/naiveINTT.v|
-Z32 !s90 -reportprogress|300|-work|work|C:/File/zkp/Lab/NTT-study/HW/naiveNTT/naiveINTT.v|
 !s101 -O0
 vnaiveINTT_tb
-!i10b 1
-!s100 OiC9QJK1^ZPeFgd4eVUVK2
-IR9UCO?Cifkg>WFiM:og[X2
-Z33 Vz`=TJUg[YESIU=MSPoFnz0
+Z33 !s100 OiC9QJK1^ZPeFgd4eVUVK2
+Z34 IR9UCO?Cifkg>WFiM:og[X2
+Z35 Vz`=TJUg[YESIU=MSPoFnz0
 R4
-w1681979095
-Z34 8C:/File/zkp/Lab/NTT-study/HW/naiveNTT/tb_naiveINTT.v
-Z35 FC:/File/zkp/Lab/NTT-study/HW/naiveNTT/tb_naiveINTT.v
+Z36 w1681979169
+Z37 8C:/File/zkp/Lab/NTT-study/HW/naiveNTT/tb_naiveINTT.v
+Z38 FC:/File/zkp/Lab/NTT-study/HW/naiveNTT/tb_naiveINTT.v
 L0 3
 R8
 r1
-!s85 0
 31
-!s108 1681979102.500000
-!s107 C:/File/zkp/Lab/NTT-study/HW/naiveNTT/tb_naiveINTT.v|
-Z36 !s90 -reportprogress|300|-work|work|C:/File/zkp/Lab/NTT-study/HW/naiveNTT/tb_naiveINTT.v|
-!s101 -O0
+Z39 !s90 -reportprogress|300|-work|work|C:/File/zkp/Lab/NTT-study/HW/naiveNTT/tb_naiveINTT.v|
 R10
-Z37 nnaive@i@n@t@t_tb
+Z40 nnaive@i@n@t@t_tb
+Z41 !s108 1682314392.212000
+Z42 !s107 C:/File/zkp/Lab/NTT-study/HW/naiveNTT/tb_naiveINTT.v|
+!i10b 1
+!s85 0
+!s101 -O0
 vnaiveNTT
-Z38 IoG[OHZ`OGgnWmK=n>J8f00
-Z39 V^3e34HoL=PZ=0Y5[H0h^j2
+Z43 IoG[OHZ`OGgnWmK=n>J8f00
+Z44 V^3e34HoL=PZ=0Y5[H0h^j2
 R4
-Z40 w1681974807
-Z41 8C:/File/zkp/Lab/NTT-study/HW/naiveNTT/naive.v
-Z42 FC:/File/zkp/Lab/NTT-study/HW/naiveNTT/naive.v
+Z45 w1681986401
+Z46 8C:/File/zkp/Lab/NTT-study/HW/naiveNTT/naive.v
+Z47 FC:/File/zkp/Lab/NTT-study/HW/naiveNTT/naive.v
 L0 1
 R8
 r1
 31
-Z43 !s108 1681979102.313000
-Z44 !s107 C:/File/zkp/Lab/NTT-study/HW/naiveNTT/naive.v|
-Z45 !s90 -reportprogress|300|-work|work|C:/File/zkp/Lab/NTT-study/HW/naiveNTT/naive.v|
 R10
-Z46 nnaive@n@t@t
-Z47 !s100 4_NIh_<HbJXS0e<jnndHO2
+Z48 nnaive@n@t@t
+Z49 !s100 4_NIh_<HbJXS0e<jnndHO2
+Z50 !s108 1682314392.021000
+Z51 !s107 C:/File/zkp/Lab/NTT-study/HW/naiveNTT/naive.v|
+Z52 !s90 -reportprogress|300|-work|work|C:/File/zkp/Lab/NTT-study/HW/naiveNTT/naive.v|
 !i10b 1
 !s85 0
 !s101 -O0
 vnaiveNTT_tb
-Z48 !s100 58MC^a:7h>eQ818zQb>Az3
-Z49 I@HT[a>R8V1Vl6cmf?UibM0
-Z50 VO7PAmW?6HVjIOmld;Fl7g1
+Z53 !s100 58MC^a:7h>eQ818zQb>Az3
+Z54 I@HT[a>R8V1Vl6cmf?UibM0
+Z55 VO7PAmW?6HVjIOmld;Fl7g1
 R4
-Z51 w1681974361
-Z52 8C:/File/zkp/Lab/NTT-study/HW/naiveNTT/tb_naive.v
-Z53 FC:/File/zkp/Lab/NTT-study/HW/naiveNTT/tb_naive.v
+Z56 w1681974361
+Z57 8C:/File/zkp/Lab/NTT-study/HW/naiveNTT/tb_naive.v
+Z58 FC:/File/zkp/Lab/NTT-study/HW/naiveNTT/tb_naive.v
 L0 3
 R8
 r1
 31
-Z54 !s90 -reportprogress|300|-work|work|C:/File/zkp/Lab/NTT-study/HW/naiveNTT/tb_naive.v|
+Z59 !s90 -reportprogress|300|-work|work|C:/File/zkp/Lab/NTT-study/HW/naiveNTT/tb_naive.v|
 R10
-Z55 nnaive@n@t@t_tb
-Z56 !s108 1681979102.360000
-Z57 !s107 C:/File/zkp/Lab/NTT-study/HW/naiveNTT/tb_naive.v|
+Z60 nnaive@n@t@t_tb
+Z61 !s108 1682314392.066000
+Z62 !s107 C:/File/zkp/Lab/NTT-study/HW/naiveNTT/tb_naive.v|
 !i10b 1
 !s85 0
+!s101 -O0
+vnaiveNTTPolyMul
+!i10b 1
+!s100 Z?8PFa^Q>3mONI6OBEKYc1
+IEnB][gaHmnFYG=[aPhzFm1
+Z63 Va=Ti;G[YGNg1Mic64a9c<0
+R4
+w1682315248
+Z64 8C:/File/zkp/Lab/NTT-study/HW/naiveNTT/nivePolyMul.v
+Z65 FC:/File/zkp/Lab/NTT-study/HW/naiveNTT/nivePolyMul.v
+L0 3
+R8
+r1
+!s85 0
+31
+!s108 1682315278.582000
+!s107 C:/File/zkp/Lab/NTT-study/HW/naiveNTT/nivePolyMul.v|
+Z66 !s90 -reportprogress|300|-work|work|C:/File/zkp/Lab/NTT-study/HW/naiveNTT/nivePolyMul.v|
+!s101 -O0
+R10
+Z67 nnaive@n@t@t@poly@mul
+vnaiveNTTPolyMul_tb
+Z68 IgY:KAKMamA9HWEl1UmbB60
+Z69 VG]T6?UjcZ76=O^kUI1AK12
+R4
+Z70 w1682314356
+Z71 8C:/File/zkp/Lab/NTT-study/HW/naiveNTT/tb_nivePolyMul.v
+Z72 FC:/File/zkp/Lab/NTT-study/HW/naiveNTT/tb_nivePolyMul.v
+L0 3
+R8
+r1
+31
+Z73 !s90 -reportprogress|300|-work|work|C:/File/zkp/Lab/NTT-study/HW/naiveNTT/tb_nivePolyMul.v|
+R10
+Z74 nnaive@n@t@t@poly@mul_tb
+!i10b 1
+Z75 !s100 G7@MSSD5=KY>Z;W=DH7hb2
+!s85 0
+Z76 !s108 1682314392.303000
+Z77 !s107 C:/File/zkp/Lab/NTT-study/HW/naiveNTT/tb_nivePolyMul.v|
 !s101 -O0
