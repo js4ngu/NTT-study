@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include <math.h>
 
-int reverse_bits(int number, int bit_length) {
+int reverse_bits(int data_in, int bit_length) {
     int reversed = 0;
     for (int i = 0; i < bit_length; i++) {
-        if ((number >> i) & 1) {
+        if ((data_in >> i) & 1) {
             reversed |= 1 << (bit_length - 1 - i);
         }
     }
@@ -12,6 +12,7 @@ int reverse_bits(int number, int bit_length) {
 }
 
 int* cooley_tukey_ntt(int* out, int q, int* omegas, int n) {
+    /*아마 비트 뒤집는 코드*/
     for (int i = 0; i < n; i++) {
         int rev_i = reverse_bits(i, (int)log2(n));
         if (rev_i > i) {
@@ -72,5 +73,6 @@ void main() {
 
     for (int i = 0; i < n; i++) 
         printf("%d, ", B[i]);
+
     printf("\n");
 }
