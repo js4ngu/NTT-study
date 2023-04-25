@@ -12,7 +12,7 @@ int reverse_bits(int data_in, int bit_length) {
 }
 
 int* cooley_tukey_ntt(int* out, int q, int* omegas, int n) {
-    /*아마 비트 뒤집는 코드*/
+    /*Bit-reversal permutation algorithm -> 공부필요*/
     for (int i = 0; i < n; i++) {
         int rev_i = reverse_bits(i, (int)log2(n));
         if (rev_i > i) {
