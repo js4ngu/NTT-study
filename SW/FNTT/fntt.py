@@ -9,6 +9,7 @@ def reverse_bits(number, bit_length):
     return reversed
 
 def cooley_tukey_ntt(out, q, omegas, n):
+    # Reverses the bits of `number` up to `bit_length`.
     for i in range(n):
         rev_i = reverse_bits(i, n.bit_length() - 1)
         if rev_i > i:
