@@ -22,7 +22,8 @@ int* cooley_tukey_ntt(int* out, int q, int* omegas, int n) {
         }
     }
 
-    int iterations = (int)log2(n);
+    //Butterfly-algorithm
+    int iterations = (int)log2(n); //bit length
     int M = 2;
 
     for (int i = 0; i < iterations; i++) {
