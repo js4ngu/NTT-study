@@ -1,0 +1,9 @@
+0.7
+2020.2
+Apr 18 2022
+16:05:34
+C:/File/zkp/Lab/NTT-study/HW/naiveFNTT/module/fntt.sv,1682498449,systemVerilog,,C:/File/zkp/Lab/NTT-study/HW/naiveFNTT/module/reverse_bits.sv,,naiveFNTT,,uvm,,,,,,
+C:/File/zkp/Lab/NTT-study/HW/naiveFNTT/module/reverse_bits.sv,1682496598,systemVerilog,,C:/File/zkp/Lab/NTT-study/HW/naiveFNTT/tb/tb_fntt.sv,,reverse_bits,,uvm,,,,,,
+C:/File/zkp/Lab/NTT-study/HW/naiveFNTT/tb/tb_fntt.sv,1682497107,systemVerilog,,,,tb_fntt,,uvm,,,,,,
+C:/File/zkp/Lab/NTT-study/HW/naiveFNTT/tb/tb_reverse_bits.sv,1682496916,systemVerilog,,,,reverse_bits_tb,,uvm,,,,,,
+C:/File/zkp/Lab/NTT-study/HW/naiveFNTT/vivado/naiveFNTT/naiveFNTT.sim/sim_1/behav/xsim/glbl.v,1649976174,verilog,,,,glbl,,uvm,,,,,,

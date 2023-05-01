@@ -1,0 +1,11 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../../../module/fntt.sv" \
+"../../../../../../module/reverse_bits.sv" \
+"../../../../../../tb/tb_fntt.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

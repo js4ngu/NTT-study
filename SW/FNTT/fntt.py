@@ -47,20 +47,18 @@ def demo():
     mod = 17
     w = [1, 9, 13, 15, 16, 8, 4, 2]
     A = cooley_tukey_ntt(a,mod,w, 8)
-    print("=====")
-    print("mod, w: ",mod ,w)
+    print("==NTT Result==")
     print(A)
 
     invW = [1, 2, 4, 8, 16, 15, 13, 9]
     invN = 15
     B = cooley_tukey_intt(A, mod, invW, 8, invN)
 
-    print("mod, w: ",mod ,w)
+    print("==INTT Result==")
     print(B)
-    print("[1,2,3,0,0,0,0,0]")
 
 def main():
     demo()
-    
+
 if __name__ == '__main__':
     main()

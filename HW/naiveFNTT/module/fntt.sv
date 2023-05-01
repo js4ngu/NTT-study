@@ -1,0 +1,40 @@
+module naiveFNTT (
+    //input               clk,
+    input reg     [7:0] data_in     [7:0],
+    input         [7:0] array_size,
+    input         [7:0] bit_length,
+    
+    input reg     [7:0] omegas      [7:0],
+    input         [7:0] mod
+
+    output reg    [7:0] data_out    [7:0]
+);
+    reg     [7:0] rev_data          [7:0];
+    reg     [7:0] M, i, j, k, g, U, V;
+    
+    reverse_bits u0 (
+        .data_in(data_in),
+        .array_size(array_size),
+        .bit_length(bit_length),
+        .data_out(rev_data)
+    );
+
+    always @(*) begin
+        M = 2;
+        for (i = 0; i < bit_length; i = i + 1) begin
+            for (j = 0; j < array_size; j = j + M) begin
+                g = 0;
+                for ( k = j; k < j + M / 2; k = k + 1 ) begin
+                    U = rev_data[k][7:0];
+                    V = rev_data[k + M/2] * omegas[g];
+
+                    data_out[k] = (U + V) % mod;
+                    data_out[k + M/2] = (U - V + mod) % mod;
+                    g = (g + array_size / M) % array_size;
+                end
+            end
+            M = M << 1;
+        end
+    end
+
+endmodule

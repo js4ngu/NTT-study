@@ -1,0 +1,7 @@
+Running: xsim.dir/reverse_bits_tb_behav/xsimk.exe -simmode gui -wdb reverse_bits_tb_behav.wdb -simrunnum 0 -socket 51351
+Design successfully loaded
+Design Loading Memory Usage: 7444 KB (Peak: 7444 KB)
+Design Loading CPU Usage: 15 ms
+Simulation completed
+Simulation Memory Usage: 7936 KB (Peak: 7936 KB)
+Simulation CPU Usage: 31 ms

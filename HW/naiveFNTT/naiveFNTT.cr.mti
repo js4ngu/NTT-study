@@ -5,6 +5,13 @@ Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 Top level modules:
 	reverse_bits
 
+} {} {}} C:/File/zkp/Lab/NTT-study/HW/naiveFNTT/tb/tb_fntt.sv {1 {vlog -work work -sv C:/File/zkp/Lab/NTT-study/HW/naiveFNTT/tb/tb_fntt.sv
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module tb_fntt
+
+Top level modules:
+	tb_fntt
+
 } {} {}} C:/File/zkp/Lab/NTT-study/HW/naiveFNTT/tb/tb_reverse_bits.sv {1 {vlog -work work -sv C:/File/zkp/Lab/NTT-study/HW/naiveFNTT/tb/tb_reverse_bits.sv
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 -- Compiling module reverse_bits_tb

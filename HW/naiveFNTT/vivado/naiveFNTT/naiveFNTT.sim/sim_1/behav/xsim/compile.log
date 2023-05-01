@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/File/zkp/Lab/NTT-study/HW/naiveFNTT/module/fntt.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module naiveFNTT
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/File/zkp/Lab/NTT-study/HW/naiveFNTT/module/reverse_bits.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module reverse_bits
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/File/zkp/Lab/NTT-study/HW/naiveFNTT/tb/tb_fntt.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_fntt

@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Wed Apr 26 18:01:24 2023
+# Process ID: 17364
+# Current directory: C:/File/zkp/Lab/NTT-study/HW/naiveFNTT/vivado/naiveFNTT/naiveFNTT.runs/synth_1
+# Command line: vivado.exe -log reverse_bits_tb.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source reverse_bits_tb.tcl
+# Log file: C:/File/zkp/Lab/NTT-study/HW/naiveFNTT/vivado/naiveFNTT/naiveFNTT.runs/synth_1/reverse_bits_tb.vds
+# Journal file: C:/File/zkp/Lab/NTT-study/HW/naiveFNTT/vivado/naiveFNTT/naiveFNTT.runs/synth_1\vivado.jou
+# Running On: DESKTOP-TV817D3, OS: Windows, CPU Frequency: 3600 MHz, CPU Physical cores: 8, Host memory: 68649 MB
+#-----------------------------------------------------------
+source reverse_bits_tb.tcl -notrace

@@ -3,47 +3,92 @@ K3
 13
 cModel Technology
 Z0 dC:\File\zkp\Lab\NTT-study\HW\naiveNTT
-vreverse_bits
+vnaiveFNTT
 Z1 DXx6 sv_std 3 std 0 22 F[19LRNL:5;XmIFh[XOPn1
-Z2 I:NWH7hd1iGm9b?=oGz@GZ0
-Z3 VmTaEj1N55h^IBV4]kmASK2
-Z4 !s105 reverse_bits_sv_unit
+Z2 !s100 JkRDX1=G8f0ZXn>iFQN433
+Z3 IE>0Y@>GBI]X5JPjDWJCCW2
+Z4 V^_0]e9L45P>OS`GF9<<z83
+Z5 !s105 fntt_sv_unit
 S1
-Z5 dC:\File\zkp\Lab\NTT-study\HW\naiveFNTT
-Z6 w1682492757
-Z7 8C:/File/zkp/Lab/NTT-study/HW/naiveFNTT/module/reverse_bits.sv
-Z8 FC:/File/zkp/Lab/NTT-study/HW/naiveFNTT/module/reverse_bits.sv
+Z6 dC:\File\zkp\Lab\NTT-study\HW\naiveFNTT
+Z7 w1682496594
+Z8 8C:/File/zkp/Lab/NTT-study/HW/naiveFNTT/module/fntt.sv
+Z9 FC:/File/zkp/Lab/NTT-study/HW/naiveFNTT/module/fntt.sv
 L0 1
-Z9 OV;L;10.1d;51
+Z10 OV;L;10.1d;51
 r1
 31
-Z10 !s90 -reportprogress|300|-work|work|-sv|C:/File/zkp/Lab/NTT-study/HW/naiveFNTT/module/reverse_bits.sv|
-Z11 o-work work -sv -O0
+Z11 !s90 -reportprogress|300|-work|work|-sv|C:/File/zkp/Lab/NTT-study/HW/naiveFNTT/module/fntt.sv|
+Z12 o-work work -sv -O0
+Z13 nnaive@f@n@t@t
+Z14 !s108 1682497111.288000
+Z15 !s107 C:/File/zkp/Lab/NTT-study/HW/naiveFNTT/module/fntt.sv|
 !i10b 1
-Z12 !s100 O<@HF;XOjW19ZXhU9k65:1
 !s85 0
-Z13 !s108 1682492776.981000
-Z14 !s107 C:/File/zkp/Lab/NTT-study/HW/naiveFNTT/module/reverse_bits.sv|
+!s101 -O0
+vreverse_bits
+R1
+Z16 !s100 D>31oYZQZonTYeb>DkN<<1
+Z17 ISWBDM0g[jO`NM[DVDcQ[L1
+Z18 VAZ]eR[0NQ[3=X5mjUUHkk2
+Z19 !s105 reverse_bits_sv_unit
+S1
+R6
+Z20 w1682496598
+Z21 8C:/File/zkp/Lab/NTT-study/HW/naiveFNTT/module/reverse_bits.sv
+Z22 FC:/File/zkp/Lab/NTT-study/HW/naiveFNTT/module/reverse_bits.sv
+L0 1
+R10
+r1
+31
+Z23 !s90 -reportprogress|300|-work|work|-sv|C:/File/zkp/Lab/NTT-study/HW/naiveFNTT/module/reverse_bits.sv|
+R12
+Z24 !s108 1682497111.228000
+Z25 !s107 C:/File/zkp/Lab/NTT-study/HW/naiveFNTT/module/reverse_bits.sv|
+!i10b 1
+!s85 0
 !s101 -O0
 vreverse_bits_tb
 R1
 !i10b 1
-Z15 !s100 E;^nLdOAGnf08?ihRbE;Q2
-Z16 IjFEPo<7[;gUz8l;J8[PQR0
-Z17 VA3EgIISimY4>]DjRjFHHZ2
-Z18 !s105 tb_reverse_bits_sv_unit
+Z26 !s100 KBVRdh>9HIZ;zbTz]QbHT1
+Z27 IdR2o_AkUK:YHPcRWVadE>0
+Z28 VA3EgIISimY4>]DjRjFHHZ2
+Z29 !s105 tb_reverse_bits_sv_unit
 S1
-R5
-Z19 w1682492541
-Z20 8C:/File/zkp/Lab/NTT-study/HW/naiveFNTT/tb/tb_reverse_bits.sv
-Z21 FC:/File/zkp/Lab/NTT-study/HW/naiveFNTT/tb/tb_reverse_bits.sv
+R6
+Z30 w1682496916
+Z31 8C:/File/zkp/Lab/NTT-study/HW/naiveFNTT/tb/tb_reverse_bits.sv
+Z32 FC:/File/zkp/Lab/NTT-study/HW/naiveFNTT/tb/tb_reverse_bits.sv
 L0 1
-R9
+R10
 r1
 !s85 0
 31
-!s108 1682492777.033000
+!s108 1682497111.382000
 !s107 C:/File/zkp/Lab/NTT-study/HW/naiveFNTT/tb/tb_reverse_bits.sv|
-Z22 !s90 -reportprogress|300|-work|work|-sv|C:/File/zkp/Lab/NTT-study/HW/naiveFNTT/tb/tb_reverse_bits.sv|
+Z33 !s90 -reportprogress|300|-work|work|-sv|C:/File/zkp/Lab/NTT-study/HW/naiveFNTT/tb/tb_reverse_bits.sv|
 !s101 -O0
-R11
+R12
+vtb_fntt
+R1
+Z34 IRWa0R;hL4dnWX0mk=hAlC1
+Z35 VcoO>M?c][iN>K8S?<[aP_2
+Z36 !s105 tb_fntt_sv_unit
+S1
+R6
+Z37 w1682497107
+Z38 8C:/File/zkp/Lab/NTT-study/HW/naiveFNTT/tb/tb_fntt.sv
+Z39 FC:/File/zkp/Lab/NTT-study/HW/naiveFNTT/tb/tb_fntt.sv
+L0 1
+R10
+r1
+31
+Z40 !s90 -reportprogress|300|-work|work|-sv|C:/File/zkp/Lab/NTT-study/HW/naiveFNTT/tb/tb_fntt.sv|
+R12
+!i10b 1
+Z41 !s100 XzzRz4E@^hoEH`?C3Y5@a1
+!s85 0
+Z42 !s108 1682497111.335000
+Z43 !s107 C:/File/zkp/Lab/NTT-study/HW/naiveFNTT/tb/tb_fntt.sv|
+!s101 -O0

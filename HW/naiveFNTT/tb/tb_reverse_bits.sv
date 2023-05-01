@@ -3,13 +3,7 @@ module reverse_bits_tb;
     wire    [7:0] data_out    [7:0];
     reg     [7:0] array_size;
     reg     [7:0] bit_length;
-    reg clk;
-    initial begin
-        clk = 1'b0;
-        forever 
-            #2 clk = ~clk;
-    end
-
+    
     initial begin        
         data_in[0]  <= 0;
         data_in[1]  <= 1;
@@ -26,14 +20,9 @@ module reverse_bits_tb;
 
 
     reverse_bits u0 (
-        .clk(clk),
         .data_in(data_in),
         .array_size(array_size),
         .bit_length(bit_length),
         .data_out(data_out)
     );    
 endmodule
-
-
-// 06  08 11 12  02  06 10  03
-
