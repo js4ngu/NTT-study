@@ -1,13 +1,13 @@
 module Butterfly_2point(
-    input reg   [7:0] data_in     [1:0],
-    input reg   [7:0] omegas,
-    input reg   [7:0] mod,
-    output reg  [7:0] data_out    [1:0]
+    input reg t [7:0] data_in     [1:0],
+    input reg t [7:0] omegas,
+    input reg t [7:0] mod,
+    output regt [7:0] data_out    [1:0]
 );
     assign data_out[0] = ( data_in[0] + data_in[1] * omegas ) % mod;
     assign data_out[1] = ( data_in[0] + data_in[1] * (mod - omegas) ) % mod;
 endmodule;
-
+                      
 module Butterfly_4point(
     input reg   [7:0] data_in     [3:0],
     input reg   [7:0] omegas      [1:0],
@@ -16,7 +16,6 @@ module Butterfly_4point(
 );
     assign data_out[0] = (data_in[0] + data_in[2] * omegas[0]) % mod;
     assign data_out[1] = (data_in[1] + data_in[3] * omegas[1]) % mod;
-
     assign data_out[2] = (data_in[0] + data_in[2] * (mod - omegas[0])) % mod;
     assign data_out[3] = (data_in[1] + data_in[3] * (mod - omegas[1])) % mod;
 endmodule
@@ -51,3 +50,4 @@ module Butterfly_4point_network (
         .data_out(data_out)
     );
 endmodule
+
