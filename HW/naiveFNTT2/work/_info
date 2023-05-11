@@ -40,7 +40,7 @@ Z19 8C:/File/zkp/Lab/NTT-study/HW/naiveFNTT2/module/4point-Butterfly.sv
 Z20 FC:/File/zkp/Lab/NTT-study/HW/naiveFNTT2/module/4point-Butterfly.sv
 L0 9
 R9
-Z21 !s108 1682934679.563000
+Z21 !s108 1683089423.768000
 Z22 !s107 C:/File/zkp/Lab/NTT-study/HW/naiveFNTT2/module/4point-Butterfly.sv|
 Z23 !s90 -reportprogress|300|-work|work|-sv|C:/File/zkp/Lab/NTT-study/HW/naiveFNTT2/module/4point-Butterfly.sv|
 R13
@@ -51,21 +51,21 @@ Z24 n@_4point2d@butterfly_sv_unit
 !s101 -O0
 X_8point2dnaiveFNTT_sv_unit
 R1
-Z25 !s100 IHk6Uff<`gSRh1lZgz0Kd3
-Z26 IFX6Dl?[:BI1P@;kkeUJfE0
-Z27 VFX6Dl?[:BI1P@;kkeUJfE0
+Z25 !s100 iWkkNlE>A;TdJlF9OX`871
+Z26 Il@3:WbDW8DXK;9UHc<]<^3
+Z27 Vl@3:WbDW8DXK;9UHc<]<^3
 S1
 R5
 Z28 w1682914038
-Z29 8C:\File\zkp\Lab\NTT-study\HW\naiveFNTT2\module\8point-naiveFNTT.sv
-Z30 FC:\File\zkp\Lab\NTT-study\HW\naiveFNTT2\module\8point-naiveFNTT.sv
+Z29 8C:/File/zkp/Lab/NTT-study/HW/naiveFNTT2/module/8point-naiveFNTT.sv
+Z30 FC:/File/zkp/Lab/NTT-study/HW/naiveFNTT2/module/8point-naiveFNTT.sv
 L0 31
 R9
 r1
 31
-Z31 !s108 1682934679.713000
-Z32 !s107 C:\File\zkp\Lab\NTT-study\HW\naiveFNTT2\module\8point-naiveFNTT.sv|
-Z33 !s90 -reportprogress|300|-work|work|-sv|C:\File\zkp\Lab\NTT-study\HW\naiveFNTT2\module\8point-naiveFNTT.sv|
+Z31 !s108 1683089423.912000
+Z32 !s107 C:/File/zkp/Lab/NTT-study/HW/naiveFNTT2/module/8point-naiveFNTT.sv|
+Z33 !s90 -reportprogress|300|-work|work|-sv|C:/File/zkp/Lab/NTT-study/HW/naiveFNTT2/module/8point-naiveFNTT.sv|
 R13
 Z34 n@_8point2dnaive@f@n@t@t_sv_unit
 !i10b 1
@@ -86,7 +86,7 @@ L0 13
 R9
 r1
 31
-Z41 !s108 1682934679.767000
+Z41 !s108 1683089423.968000
 Z42 !s107 C:/File/zkp/Lab/NTT-study/HW/naiveFNTT2/module/bit_reverse_ordered.sv|
 Z43 !s90 -reportprogress|300|-work|work|-sv|C:/File/zkp/Lab/NTT-study/HW/naiveFNTT2/module/bit_reverse_ordered.sv|
 R13
@@ -143,9 +143,10 @@ Z53 n@butterfly_16point_network
 !s101 -O0
 vButterfly_2point
 R1
-Z54 IVTW@dzFmSlQLDUib5RG>J1
-Z55 V@KiQj0co]]Ld6JN1C`ML@3
-Z56 !s105 _4point2dButterfly_sv_unit
+Z54 !s100 K>QK^XmOVk93feBCHo=1_2
+Z55 IVTW@dzFmSlQLDUib5RG>J1
+Z56 V@KiQj0co]]Ld6JN1C`ML@3
+Z57 !s105 _4point2dButterfly_sv_unit
 S1
 R5
 R18
@@ -159,8 +160,7 @@ R21
 R22
 R23
 R13
-Z57 n@butterfly_2point
-Z58 !s100 K>QK^XmOVk93feBCHo=1_2
+Z58 n@butterfly_2point
 !i10b 1
 !s85 0
 !s101 -O0
@@ -170,8 +170,9 @@ Z59 DXx4 work 26 _4point2dButterfly_sv_unit 0 22 H`4]nbzbZT5b@R?B1dEWe2
 Z60 VY`>e:`;6WPV_AJKYa``3T3
 r1
 31
-Z61 II5^2o@[Q]_a2nSoAo<DLU3
-R56
+Z61 !s100 8^BfIbX<^3J]A5?OQjd9S3
+Z62 II5^2o@[Q]_a2nSoAo<DLU3
+R57
 S1
 R5
 R18
@@ -183,8 +184,7 @@ R21
 R22
 R23
 R13
-Z62 n@butterfly_4point
-Z63 !s100 8^BfIbX<^3J]A5?OQjd9S3
+Z63 n@butterfly_4point
 !s85 0
 !i10b 1
 !s101 -O0
@@ -196,7 +196,7 @@ r1
 31
 Z65 !s100 NADhN]BH4z59>E8L>_BE23
 Z66 I:_h76Cn4]HJg>Xei?bQY]2
-R56
+R57
 S1
 R5
 R18
@@ -214,22 +214,22 @@ Z67 n@butterfly_4point_network
 !s101 -O0
 vButterfly_8point
 R1
-Z68 !s100 Qn<OUEN=7AnQPL@95YZUW3
-Z69 I6ilT23^A;o^QSg[WCU1UH2
-Z70 V@W]=8E^BC8T?o7P;@kfTO3
+Z68 !s100 GHY]2D<a0<1d58X3_=PL82
+Z69 IL_BGlbm`5S5aJQOm7FGk<2
+Z70 Vb^c6okSBDOJTVfXQ2;4Kg0
 Z71 !s105 _8point2dButterfly_sv_unit
 S1
 R5
-Z72 w1682914005
-Z73 8C:\File\zkp\Lab\NTT-study\HW\naiveFNTT2\module\8point-Butterfly.sv
-Z74 FC:\File\zkp\Lab\NTT-study\HW\naiveFNTT2\module\8point-Butterfly.sv
+Z72 w1683084451
+Z73 8C:/File/zkp/Lab/NTT-study/HW/naiveFNTT2/module/8point-Butterfly.sv
+Z74 FC:/File/zkp/Lab/NTT-study/HW/naiveFNTT2/module/8point-Butterfly.sv
 L0 1
 R9
 r1
 31
-Z75 !s108 1682934679.659000
-Z76 !s107 C:\File\zkp\Lab\NTT-study\HW\naiveFNTT2\module\8point-Butterfly.sv|
-Z77 !s90 -reportprogress|300|-work|work|-sv|C:\File\zkp\Lab\NTT-study\HW\naiveFNTT2\module\8point-Butterfly.sv|
+Z75 !s108 1683089423.856000
+Z76 !s107 C:/File/zkp/Lab/NTT-study/HW/naiveFNTT2/module/8point-Butterfly.sv|
+Z77 !s90 -reportprogress|300|-work|work|-sv|C:/File/zkp/Lab/NTT-study/HW/naiveFNTT2/module/8point-Butterfly.sv|
 R13
 Z78 n@butterfly_8point
 !i10b 1
@@ -237,8 +237,8 @@ Z78 n@butterfly_8point
 !s101 -O0
 vButterfly_8point_network
 R1
-Z79 !s100 [540YRJgiCAWdN[L0Cdnj3
-Z80 I:QGA?49DINY2T@`mo7lKe0
+Z79 !s100 Whi6jX[@5eIURlgTQN;Ji1
+Z80 I]50b:eUm>zW2MK5YR5VPf0
 Z81 VWkkHQ<@YFY9m9;3Jn60o41
 R71
 S1
@@ -258,12 +258,35 @@ Z82 n@butterfly_8point_network
 !i10b 1
 !s85 0
 !s101 -O0
+vButterfly_8point_rev2
+R1
+Z83 !s100 ogYZ]>>@e@_7Tk<[VAzLh0
+Z84 I@Zk:6SC5aAT7:?QePHb@f1
+Z85 VefjhO1[4YIVeOTfaU^Kjm2
+Z86 !s105 _8point2dButterfly2_sv_unit
+S1
+R5
+Z87 w1683026312
+Z88 8C:/File/zkp/Lab/NTT-study/HW/naiveFNTT2/module/8point-Butterfly2.sv
+Z89 FC:/File/zkp/Lab/NTT-study/HW/naiveFNTT2/module/8point-Butterfly2.sv
+L0 1
+R9
+r1
+31
+Z90 !s90 -reportprogress|300|-work|work|-sv|C:/File/zkp/Lab/NTT-study/HW/naiveFNTT2/module/8point-Butterfly2.sv|
+R13
+Z91 n@butterfly_8point_rev2
+!i10b 1
+!s85 0
+Z92 !s108 1683089424.227000
+Z93 !s107 C:/File/zkp/Lab/NTT-study/HW/naiveFNTT2/module/8point-Butterfly2.sv|
+!s101 -O0
 vdata_bit_reverse_order
 R1
-Z83 !s100 :EL>n5ORm`86;U2@W5_VM3
-Z84 InfLRR]`m34mgn>YQZEkPI0
-Z85 VcEN2zKQ_ec`IiaBW^^>PK3
-Z86 !s105 bit_reverse_ordered_sv_unit
+Z94 !s100 :EL>n5ORm`86;U2@W5_VM3
+Z95 InfLRR]`m34mgn>YQZEkPI0
+Z96 VcEN2zKQ_ec`IiaBW^^>PK3
+Z97 !s105 bit_reverse_ordered_sv_unit
 S1
 R5
 R38
@@ -282,10 +305,10 @@ R13
 !s101 -O0
 vnaiveFNTT2_8point
 R1
-Z87 !s100 DU47jC_T05LBhTB8V1NhH3
-Z88 I>P3flSo^fac:BCDi=H^o;1
-Z89 V]G]4aOT;AM6g6[`l2GL?h1
-Z90 !s105 _8point2dnaiveFNTT_sv_unit
+Z98 !s100 a8Ui`AAdX=F50RLbNfW>k1
+Z99 IfLz<50k0X^1U`0zYA<FgR3
+Z100 V]G]4aOT;AM6g6[`l2GL?h1
+Z101 !s105 _8point2dnaiveFNTT_sv_unit
 S1
 R5
 R28
@@ -299,49 +322,49 @@ R31
 R32
 R33
 R13
-Z91 nnaive@f@n@t@t2_8point
+Z102 nnaive@f@n@t@t2_8point
 !i10b 1
 !s85 0
 !s101 -O0
 vomgea_genrator
 R1
-Z92 !s100 ^Y[Jndozdkj@S=l_lHSKz1
-Z93 I?2dTQk]PLabg`?LlOPChG2
-Z94 VnLLjDN`NMU`z8h^b_WPVT1
-Z95 !s105 omgea_genrator_sv_unit
+Z103 !s100 kPnO@;A1RlcE=V0cW7?F[0
+Z104 I2SG:LJBf^AQoO:=A_ZAF^1
+Z105 VnLLjDN`NMU`z8h^b_WPVT1
+Z106 !s105 omgea_genrator_sv_unit
 S1
 R5
-Z96 w1682914302
-Z97 8C:\File\zkp\Lab\NTT-study\HW\naiveFNTT2\module\omgea_genrator.sv
-Z98 FC:\File\zkp\Lab\NTT-study\HW\naiveFNTT2\module\omgea_genrator.sv
+Z107 w1682914302
+Z108 8C:/File/zkp/Lab/NTT-study/HW/naiveFNTT2/module/omgea_genrator.sv
+Z109 FC:/File/zkp/Lab/NTT-study/HW/naiveFNTT2/module/omgea_genrator.sv
 L0 1
 R9
 r1
 31
-Z99 !s108 1682934679.824000
-Z100 !s107 C:\File\zkp\Lab\NTT-study\HW\naiveFNTT2\module\omgea_genrator.sv|
-Z101 !s90 -reportprogress|300|-work|work|-sv|C:\File\zkp\Lab\NTT-study\HW\naiveFNTT2\module\omgea_genrator.sv|
+Z110 !s108 1683089424.025000
+Z111 !s107 C:/File/zkp/Lab/NTT-study/HW/naiveFNTT2/module/omgea_genrator.sv|
+Z112 !s90 -reportprogress|300|-work|work|-sv|C:/File/zkp/Lab/NTT-study/HW/naiveFNTT2/module/omgea_genrator.sv|
 R13
 !i10b 1
 !s85 0
 !s101 -O0
 Xomgea_genrator_sv_unit
 R1
-Z102 !s100 e8mnJm_H7dNN=f_0c8cY_1
-Z103 I^[FV0Df28][doS?Dl1lI=0
-Z104 V^[FV0Df28][doS?Dl1lI=0
+Z113 !s100 MZk3^P9h^[3>AO]26d@M41
+Z114 I[Y8z1C15o2hccW4A]f?gH1
+Z115 V[Y8z1C15o2hccW4A]f?gH1
 S1
 R5
-R96
-R97
-R98
+R107
+R108
+R109
 L0 15
 R9
 r1
 31
-R99
-R100
-R101
+R110
+R111
+R112
 R13
 !i10b 1
 !i103 1
@@ -349,92 +372,138 @@ R13
 !s101 -O0
 vtb_4piont_BM
 R1
-Z105 IfehlB?Y2ioU=]He38_@5`3
-Z106 V?U7`ZeKHDSzolff>97Q=f3
-Z107 !s105 tb_4point_bm_sv_unit
+Z116 IfehlB?Y2ioU=]He38_@5`3
+Z117 V?U7`ZeKHDSzolff>97Q=f3
+Z118 !s105 tb_4point_bm_sv_unit
 S1
 R5
-Z108 w1682916686
-Z109 8C:/File/zkp/Lab/NTT-study/HW/naiveFNTT2/TB/tb_4point_bm.sv
-Z110 FC:/File/zkp/Lab/NTT-study/HW/naiveFNTT2/TB/tb_4point_bm.sv
+Z119 w1682916686
+Z120 8C:/File/zkp/Lab/NTT-study/HW/naiveFNTT2/TB/tb_4point_bm.sv
+Z121 FC:/File/zkp/Lab/NTT-study/HW/naiveFNTT2/TB/tb_4point_bm.sv
 L0 1
 R9
 r1
 31
-Z111 !s90 -reportprogress|300|-work|work|-sv|C:/File/zkp/Lab/NTT-study/HW/naiveFNTT2/TB/tb_4point_bm.sv|
+Z122 !s90 -reportprogress|300|-work|work|-sv|C:/File/zkp/Lab/NTT-study/HW/naiveFNTT2/TB/tb_4point_bm.sv|
 R13
-Z112 ntb_4piont_@b@m
-Z113 !s100 `^G^9XKJ7Xj[HJ64ka@iE1
-Z114 !s108 1682916688.999000
-Z115 !s107 C:/File/zkp/Lab/NTT-study/HW/naiveFNTT2/TB/tb_4point_bm.sv|
+Z123 ntb_4piont_@b@m
+Z124 !s100 `^G^9XKJ7Xj[HJ64ka@iE1
+Z125 !s108 1682916688.999000
+Z126 !s107 C:/File/zkp/Lab/NTT-study/HW/naiveFNTT2/TB/tb_4point_bm.sv|
 !i10b 1
 !s85 0
 !s101 -O0
 vtb_4point_BM
 R1
-!i10b 1
-Z116 !s100 Ji?ZHz::zQ<KVTa26=@HV3
-Z117 ImMAE5:h<zgb3bYNS@=GO33
-Z118 VelVZmBU65GZQe@Glb8gQR0
-R107
+Z127 !s100 0DmG:0a1FSf1GWRF<Z_g`2
+Z128 IOP_JgAGDXc>1T5jWXe7ed1
+Z129 VelVZmBU65GZQe@Glb8gQR0
+R118
 S1
 R5
-Z119 w1682930668
-R109
-R110
+Z130 w1683085883
+R120
+R121
+L0 1
+R9
+r1
+31
+R122
+R13
+Z131 ntb_4point_@b@m
+Z132 !s108 1683089424.129000
+R126
+!i10b 1
+!s85 0
+!s101 -O0
+vtb_4pont_BM
+R1
+Z133 Ic4GiXIHFEad^h`e3B]<8Q3
+Z134 V7PY_d56IPaAk<FF34NMYH0
+S1
+R5
+Z135 w1682916656
+R120
+R121
+L0 1
+R9
+r1
+31
+R13
+Z136 ntb_4pont_@b@m
+Z137 !s100 ]F8]MkSM:V7hj2FPzAQ_`1
+R118
+Z138 !s108 1682916659.779000
+R126
+R122
+!i10b 1
+!s85 0
+!s101 -O0
+vtb_4vs8_CMP
+R1
+!i10b 1
+!s100 <HdKSBf9XU;MD<ncEX:Q82
+Il9o`dFRMe4I72F6g1PzmQ1
+Z139 V_=CCU>GMG]_PPodJKO9lj0
+Z140 !s105 tb_4vs8_CMP_sv_unit
+S1
+R5
+w1683089421
+Z141 8C:/File/zkp/Lab/NTT-study/HW/naiveFNTT2/tb_4vs8_CMP.sv
+Z142 FC:/File/zkp/Lab/NTT-study/HW/naiveFNTT2/tb_4vs8_CMP.sv
 L0 1
 R9
 r1
 !s85 0
 31
-!s108 1682934679.923000
-!s107 C:/File/zkp/Lab/NTT-study/HW/naiveFNTT2/TB/tb_4point_bm.sv|
-R111
+!s108 1683089424.278000
+!s107 C:/File/zkp/Lab/NTT-study/HW/naiveFNTT2/tb_4vs8_CMP.sv|
+Z143 !s90 -reportprogress|300|-work|work|-sv|C:/File/zkp/Lab/NTT-study/HW/naiveFNTT2/tb_4vs8_CMP.sv|
 !s101 -O0
 R13
-Z120 ntb_4point_@b@m
-vtb_4pont_BM
+Z144 ntb_4vs8_@c@m@p
+vtb_8point_BM
 R1
-Z121 Ic4GiXIHFEad^h`e3B]<8Q3
-Z122 V7PY_d56IPaAk<FF34NMYH0
+Z145 !s100 Gz=VQGAEC4;R;ORnA8PQ33
+Z146 IzgO8^4X3JYNK6QN1WiBUn3
+Z147 Vmmn_868VB<[FId29][bUb0
+Z148 !s105 tb_8point_bm_sv_unit
 S1
 R5
-Z123 w1682916656
-R109
-R110
+Z149 w1683085774
+Z150 8C:/File/zkp/Lab/NTT-study/HW/naiveFNTT2/TB/tb_8point_bm.sv
+Z151 FC:/File/zkp/Lab/NTT-study/HW/naiveFNTT2/TB/tb_8point_bm.sv
 L0 1
 R9
 r1
 31
+Z152 !s90 -reportprogress|300|-work|work|-sv|C:/File/zkp/Lab/NTT-study/HW/naiveFNTT2/TB/tb_8point_bm.sv|
 R13
-Z124 ntb_4pont_@b@m
-Z125 !s100 ]F8]MkSM:V7hj2FPzAQ_`1
-R107
-Z126 !s108 1682916659.779000
-R115
-R111
+Z153 ntb_8point_@b@m
+Z154 !s108 1683089424.180000
+Z155 !s107 C:/File/zkp/Lab/NTT-study/HW/naiveFNTT2/TB/tb_8point_bm.sv|
 !i10b 1
 !s85 0
 !s101 -O0
 vtb_bit_reverse_ordered
 R1
-Z127 !s100 h?_^_Ff0onWJCGjT;O5Mi0
-Z128 IUoKkZ^[QARETUL?]af@4?2
-Z129 VAfQHg]^DWl4n]cdaK>A?l3
-Z130 !s105 tb_bit_reverse_ordered_sv_unit
+Z156 !s100 h?_^_Ff0onWJCGjT;O5Mi0
+Z157 IUoKkZ^[QARETUL?]af@4?2
+Z158 VAfQHg]^DWl4n]cdaK>A?l3
+Z159 !s105 tb_bit_reverse_ordered_sv_unit
 S1
 R5
-Z131 w1682915685
-Z132 8C:/File/zkp/Lab/NTT-study/HW/naiveFNTT2/TB/tb_bit_reverse_ordered.sv
-Z133 FC:/File/zkp/Lab/NTT-study/HW/naiveFNTT2/TB/tb_bit_reverse_ordered.sv
+Z160 w1682915685
+Z161 8C:/File/zkp/Lab/NTT-study/HW/naiveFNTT2/TB/tb_bit_reverse_ordered.sv
+Z162 FC:/File/zkp/Lab/NTT-study/HW/naiveFNTT2/TB/tb_bit_reverse_ordered.sv
 L0 1
 R9
 r1
 31
-Z134 !s90 -reportprogress|300|-work|work|-sv|C:/File/zkp/Lab/NTT-study/HW/naiveFNTT2/TB/tb_bit_reverse_ordered.sv|
+Z163 !s90 -reportprogress|300|-work|work|-sv|C:/File/zkp/Lab/NTT-study/HW/naiveFNTT2/TB/tb_bit_reverse_ordered.sv|
 R13
+Z164 !s108 1683089424.081000
+Z165 !s107 C:/File/zkp/Lab/NTT-study/HW/naiveFNTT2/TB/tb_bit_reverse_ordered.sv|
 !i10b 1
 !s85 0
-Z135 !s108 1682934679.878000
-Z136 !s107 C:/File/zkp/Lab/NTT-study/HW/naiveFNTT2/TB/tb_bit_reverse_ordered.sv|
 !s101 -O0

@@ -82,7 +82,7 @@ def NegativeWrappedConv():
 def main():
     print("=====NTT MUL=====")
     nttMUL_test()
-    print("=====Negative wrapped conv=====")
-    NegativeWrappedConv()
+    #print("=====Negative wrapped conv=====")
+    #NegativeWrappedConv()
 
 main()

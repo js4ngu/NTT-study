@@ -43,9 +43,9 @@ def cooley_tukey_intt(out, q, omegas, n, invN):
     return out
 
 def demo():
-    a = [1,2,3,0,0,0,0,0]
-    mod = 17
-    w = [1, 9, 13, 15, 16, 8, 4, 2]
+    a = [0,1,2,3,4,5,6,7]
+    mod = 29
+    w = [1, 16, 24, 7, 25, 23, 20, 1]
     A = cooley_tukey_ntt(a,mod,w, 8)
     print("==NTT Result==")
     print(A)

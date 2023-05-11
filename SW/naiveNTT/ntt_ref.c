@@ -10,9 +10,9 @@ int main() {
 }
 
 void naiveNTT() {
-    int mod = 17;
-    int root = 9;
-    int dataIN[N] = {3, 1, 2, 6, 0, 0, 0, 0};
+    int mod = 73;
+    int root = 10;
+    int dataIN[N] = {0, 0, 0, 0, 3, 0, 1, 2};
     int factor;
     int temp;
     int dataOUT[N];

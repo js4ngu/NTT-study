@@ -1,4 +1,26 @@
-C:/File/zkp/Lab/NTT-study/HW/naiveFNTT2/module/bit_reverse_ordered.sv {2 {vlog -work work -sv C:/File/zkp/Lab/NTT-study/HW/naiveFNTT2/module/bit_reverse_ordered.sv
+C:/File/zkp/Lab/NTT-study/HW/naiveFNTT2/module/8point-naiveFNTT.sv {2 {vlog -work work -sv C:/File/zkp/Lab/NTT-study/HW/naiveFNTT2/module/8point-naiveFNTT.sv
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module naiveFNTT2_8point
+** Warning: C:/File/zkp/Lab/NTT-study/HW/naiveFNTT2/module/8point-naiveFNTT.sv(31): (vlog-2283) Extra semicolon in $unit (global) scope.
+
+** Warning: C:/File/zkp/Lab/NTT-study/HW/naiveFNTT2/module/8point-naiveFNTT.sv(31): (vlog-2284) Empty $unit scope found.
+
+
+Top level modules:
+	naiveFNTT2_8point
+
+} {} {}} C:/File/zkp/Lab/NTT-study/HW/naiveFNTT2/module/omgea_genrator.sv {2 {vlog -work work -sv C:/File/zkp/Lab/NTT-study/HW/naiveFNTT2/module/omgea_genrator.sv
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module omgea_genrator
+** Warning: C:/File/zkp/Lab/NTT-study/HW/naiveFNTT2/module/omgea_genrator.sv(15): (vlog-2283) Extra semicolon in $unit (global) scope.
+
+** Warning: C:/File/zkp/Lab/NTT-study/HW/naiveFNTT2/module/omgea_genrator.sv(15): (vlog-2284) Empty $unit scope found.
+
+
+Top level modules:
+	omgea_genrator
+
+} {} {}} C:/File/zkp/Lab/NTT-study/HW/naiveFNTT2/module/bit_reverse_ordered.sv {2 {vlog -work work -sv C:/File/zkp/Lab/NTT-study/HW/naiveFNTT2/module/bit_reverse_ordered.sv
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 -- Compiling module data_bit_reverse_order
 ** Warning: C:/File/zkp/Lab/NTT-study/HW/naiveFNTT2/module/bit_reverse_ordered.sv(13): (vlog-2283) Extra semicolon in $unit (global) scope.
@@ -9,27 +31,12 @@ Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 Top level modules:
 	data_bit_reverse_order
 
-} {} {}} C:/File/zkp/Lab/NTT-study/HW/naiveFNTT2/module/omgea_genrator.sv {2 {vlog -work work -sv {C:\File\zkp\Lab\NTT-study\HW\naiveFNTT2\module\omgea_genrator.sv}
+} {} {}} C:/File/zkp/Lab/NTT-study/HW/naiveFNTT2/module/8point-Butterfly2.sv {1 {vlog -work work -sv C:/File/zkp/Lab/NTT-study/HW/naiveFNTT2/module/8point-Butterfly2.sv
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
--- Compiling module omgea_genrator
-** Warning: C:\File\zkp\Lab\NTT-study\HW\naiveFNTT2\module\omgea_genrator.sv(15): (vlog-2283) Extra semicolon in $unit (global) scope.
-
-** Warning: C:\File\zkp\Lab\NTT-study\HW\naiveFNTT2\module\omgea_genrator.sv(15): (vlog-2284) Empty $unit scope found.
-
+-- Compiling module Butterfly_8point_rev2
 
 Top level modules:
-	omgea_genrator
-
-} {} {}} C:/File/zkp/Lab/NTT-study/HW/naiveFNTT2/module/8point-naiveFNTT.sv {2 {vlog -work work -sv {C:\File\zkp\Lab\NTT-study\HW\naiveFNTT2\module\8point-naiveFNTT.sv}
-Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
--- Compiling module naiveFNTT2_8point
-** Warning: C:\File\zkp\Lab\NTT-study\HW\naiveFNTT2\module\8point-naiveFNTT.sv(31): (vlog-2283) Extra semicolon in $unit (global) scope.
-
-** Warning: C:\File\zkp\Lab\NTT-study\HW\naiveFNTT2\module\8point-naiveFNTT.sv(31): (vlog-2284) Empty $unit scope found.
-
-
-Top level modules:
-	naiveFNTT2_8point
+	Butterfly_8point_rev2
 
 } {} {}} C:/File/zkp/Lab/NTT-study/HW/naiveFNTT2/TB/tb_bit_reverse_ordered.sv {1 {vlog -work work -sv C:/File/zkp/Lab/NTT-study/HW/naiveFNTT2/TB/tb_bit_reverse_ordered.sv
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
@@ -38,19 +45,19 @@ Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 Top level modules:
 	tb_bit_reverse_ordered
 
-} {} {}} C:/File/zkp/Lab/NTT-study/HW/naiveFNTT2/module/4point-Butterfly.sv {2 {vlog -work work -sv C:/File/zkp/Lab/NTT-study/HW/naiveFNTT2/module/4point-Butterfly.sv
+} {} {}} C:/File/zkp/Lab/NTT-study/HW/naiveFNTT2/tb_4vs8_CMP.sv {1 {vlog -work work -sv C:/File/zkp/Lab/NTT-study/HW/naiveFNTT2/tb_4vs8_CMP.sv
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
--- Compiling module Butterfly_2point
-** Warning: C:/File/zkp/Lab/NTT-study/HW/naiveFNTT2/module/4point-Butterfly.sv(9): (vlog-2283) Extra semicolon in $unit (global) scope.
-
-** Warning: C:/File/zkp/Lab/NTT-study/HW/naiveFNTT2/module/4point-Butterfly.sv(53): (vlog-2284) Empty $unit scope found.
-
--- Compiling package _4point2dButterfly_sv_unit
--- Compiling module Butterfly_4point
--- Compiling module Butterfly_4point_network
+-- Compiling module tb_4vs8_CMP
 
 Top level modules:
-	Butterfly_4point_network
+	tb_4vs8_CMP
+
+} {} {}} C:/File/zkp/Lab/NTT-study/HW/naiveFNTT2/TB/tb_8point_bm.sv {1 {vlog -work work -sv C:/File/zkp/Lab/NTT-study/HW/naiveFNTT2/TB/tb_8point_bm.sv
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module tb_8point_BM
+
+Top level modules:
+	tb_8point_BM
 
 } {} {}} C:/File/zkp/Lab/NTT-study/HW/naiveFNTT2/TB/tb_4point_bm.sv {1 {vlog -work work -sv C:/File/zkp/Lab/NTT-study/HW/naiveFNTT2/TB/tb_4point_bm.sv
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
