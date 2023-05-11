@@ -20,7 +20,7 @@ class FNTT_4point(width : Int) extends Module {
   omeaaReg(0) := io.omega(0)
   omeaaReg(1) := io.omega(2)
 
-  //stage10
+  //stage0
   BF(0).io.inData(0) := io.inData(0)
   BF(0).io.inData(1) := io.inData(1)
   BF(1).io.inData(0) := io.inData(2)
@@ -56,5 +56,5 @@ class FNTT_4point(width : Int) extends Module {
 
 
   //for Debug
-  for (i <- 0 until 4) io.outData(i) := modBuffer_1(i).io.outData
+  for (i <- 0 until 4) io.outData(i) := modBuffer_2(i).io.outData
 }
