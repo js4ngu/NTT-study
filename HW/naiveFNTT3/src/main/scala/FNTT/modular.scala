@@ -1,0 +1,5 @@
+package FNTT
+
+class modular {
+
+}
