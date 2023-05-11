@@ -18,8 +18,8 @@ class Butterfly_2point(width : Int) extends Module {
   InBuffer(0) := io.inData(0)
   InBuffer(1) := io.inData(1)
 
-  OutBuffer(0) := (modReg - InBuffer(1)) + InBuffer(0)
-  OutBuffer(1) := (modReg - InBuffer(0)) + InBuffer(1)
+  OutBuffer(0) := InBuffer(0) + InBuffer(1)
+  OutBuffer(1) := (modReg - InBuffer(1)) + InBuffer(0)
 
   io.outData(0) := OutBuffer(0)
   io.outData(1) := OutBuffer(1)
