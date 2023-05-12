@@ -7,7 +7,7 @@ class FNTT_8point(width : Int) extends Module {
     val inData = Input(Vec(8, UInt(width.W)))
     val omega = Input(Vec(4, UInt(width.W)))
     val mod = Input(UInt(width.W))
-    val outData = Output(Vec(8, UInt(width.W)))
+    val outData = Output(Vec(12, UInt(width.W))) // stage1 테스트 후 수정하기
   })
   //Setting
   val BF = Vector.fill(2)(Module(new FNTT_4point(width)))
@@ -39,7 +39,7 @@ class FNTT_8point(width : Int) extends Module {
   modBuffer_0(5).io.inData := BF(1).io.outData(1)
   modBuffer_0(6).io.inData := BF(1).io.outData(2) * omeaaReg(2)
   modBuffer_0(7).io.inData := BF(1).io.outData(3) * omeaaReg(2)
-/*
+
   //stage1
   val modBuffer_1 = Vector.fill(12)(Module (new modular(width)) )
   val modReg = RegInit(0.U(width.W))
@@ -47,9 +47,9 @@ class FNTT_8point(width : Int) extends Module {
   modReg := io.mod
 
   for (i <- 0 until 8) modBuffer_1(i).io.inData := modBuffer_0(i).io.outData
-  for (i <- 8 until 12) modBuffer_1(i).io.inData := modReg - modBuffer_0(i).io.outData
-*/
+  for (i <- 8 until 12) modBuffer_1(i).io.inData := modReg - modBuffer_0(i - 4).io.outData
+
   //for Debug
-  for (i <- 0 until 8) io.outData(i) := modBuffer_0(i).io.outData
+  for (i <- 0 until 12) io.outData(i) := modBuffer_1(i).io.outData
 
 }
