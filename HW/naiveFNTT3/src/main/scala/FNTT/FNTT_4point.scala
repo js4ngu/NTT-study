@@ -4,7 +4,7 @@ import chisel3._
 class FNTT_4point(width : Int) extends Module {
   val io = IO(new Bundle() {
     val inData = Input(Vec(4, UInt(width.W)))
-    val omega = Input(Vec(4, UInt(width.W)))
+    val omega = Input(Vec(2, UInt(width.W)))
     val mod = Input(UInt(width.W))
     val outData = Output(Vec(4, UInt(width.W)))
   })
@@ -18,7 +18,7 @@ class FNTT_4point(width : Int) extends Module {
   for (i <- 0 until 4) modBuffer_0(i).io.mod := io.mod
 
   omeaaReg(0) := io.omega(0)
-  omeaaReg(1) := io.omega(2)
+  omeaaReg(1) := io.omega(1)
 
   //stage0
   BF(0).io.inData(0) := io.inData(0)
