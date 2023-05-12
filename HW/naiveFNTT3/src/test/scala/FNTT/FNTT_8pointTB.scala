@@ -53,19 +53,16 @@ class FNTT_8pointTB extends AnyFlatSpec with ChiselScalatestTester {
 
       p.clock.step(20)
 
-      p.io.outData(0).expect(12.U(8.W))
-      p.io.outData(1).expect(12.U(8.W))
-      p.io.outData(2).expect(13.U(8.W))
-      p.io.outData(3).expect(14.U(8.W))
-      p.io.outData(4).expect(16.U(8.W))
-      p.io.outData(5).expect(4.U(8.W))
-      p.io.outData(6).expect(16.U(8.W))
-      p.io.outData(7).expect(15.U(8.W))
+      p.io.outData(0).expect(11.U(8.W))
+      p.io.outData(1).expect(16.U(8.W))
+      p.io.outData(2).expect(12.U(8.W))
+      p.io.outData(3).expect(12.U(8.W))
 
-      p.io.outData(8).expect(1.U(8.W))
-      p.io.outData(9).expect(13.U(8.W))
-      p.io.outData(10).expect(1.U(8.W))
-      p.io.outData(11).expect(2.U(8.W))
+      p.io.outData(4).expect(13.U(8.W))
+      p.io.outData(5).expect(8.U(8.W))
+      p.io.outData(6).expect(14.U(8.W))
+      p.io.outData(7).expect(16.U(8.W))
+
     }
   }
 }
