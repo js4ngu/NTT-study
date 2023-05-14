@@ -21,21 +21,21 @@ class FNTT_8point(width : Int) extends Module {
   reOrder.io.inData(6) := io.inData(6)
   reOrder.io.inData(7) := io.inData(7)
 
-  for (i <- 0 until 2)
-    for (j <- 0 until 4)
-      BF(i).io.inData(j) := reOrder.io.outData(4 * i + j)
-
-  //Omega gen
 
   //BF Setting
   val BF = Vector.fill(2)(Module(new FNTT_4point(width)))
   val modBuffer_0 = Vector.fill(8)(Module(new modular(width)))
-  val omeaaReg = RegInit(VecInit(Seq.fill(4)(0.U(width.W))))
+  val omegaReg = RegInit(VecInit(Seq.fill(4)(0.U(width.W))))
 
   BF(0).io.mod := io.mod
   BF(1).io.mod := io.mod
+
+  for (i <- 0 until 2)
+    for (j <- 0 until 4)
+      BF(i).io.inData(j) := reOrder.io.outData(4 * i + j)
+
   for (i <- 0 until 8) modBuffer_0(i).io.mod := io.mod
-  for (i <- 0 until 4) omeaaReg(i) := io.omega(i)
+  for (i <- 0 until 4) omegaReg(i) := io.omega(i)
   for (i <- 0 until 2) {
     BF(i).io.omega(0) := io.omega(0)
     BF(i).io.omega(1) := io.omega(2)
@@ -46,10 +46,10 @@ class FNTT_8point(width : Int) extends Module {
   modBuffer_0(1).io.inData := BF(0).io.outData(1)
   modBuffer_0(2).io.inData := BF(0).io.outData(2)
   modBuffer_0(3).io.inData := BF(0).io.outData(3)
-  modBuffer_0(4).io.inData := BF(1).io.outData(0) * omeaaReg(0)
-  modBuffer_0(5).io.inData := BF(1).io.outData(1) * omeaaReg(1)
-  modBuffer_0(6).io.inData := BF(1).io.outData(2) * omeaaReg(2)
-  modBuffer_0(7).io.inData := BF(1).io.outData(3) * omeaaReg(3)
+  modBuffer_0(4).io.inData := BF(1).io.outData(0) * omegaReg(0)
+  modBuffer_0(5).io.inData := BF(1).io.outData(1) * omegaReg(1)
+  modBuffer_0(6).io.inData := BF(1).io.outData(2) * omegaReg(2)
+  modBuffer_0(7).io.inData := BF(1).io.outData(3) * omegaReg(3)
 
   //stage1
   val modBuffer_1 = Vector.fill(12)(Module (new modular(width)) )

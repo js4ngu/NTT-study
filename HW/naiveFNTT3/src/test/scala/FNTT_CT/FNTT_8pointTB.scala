@@ -29,7 +29,7 @@ class FNTT_4pointFor8pointTB extends AnyFlatSpec with ChiselScalatestTester {
     }
   }
 }
-class FNTT_8pointTB extends AnyFlatSpec with ChiselScalatestTester {
+class FNTT_8paointTB extends AnyFlatSpec with ChiselScalatestTester {
   behavior of "8pointTB"
   it should "8pointTB ex" in{
     test(new FNTT_8point(width = 8)).withAnnotations(Seq(WriteVcdAnnotation)) { p =>
