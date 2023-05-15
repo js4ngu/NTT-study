@@ -1,4 +1,4 @@
-package FNTT
+package FNTT_GS
 import chisel3.{RegInit, _}
 
 import scala.collection.immutable.Seq

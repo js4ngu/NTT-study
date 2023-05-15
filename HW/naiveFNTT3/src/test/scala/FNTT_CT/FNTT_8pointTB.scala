@@ -1,4 +1,4 @@
-package FNTT
+package FNTT_CT
 import chisel3._
 import chiseltest._
 
@@ -36,8 +36,8 @@ class FNTT_8pointTB extends AnyFlatSpec with ChiselScalatestTester {
       //HW Init
       p.io.omega(0).poke(1 .U(8.W))
       p.io.omega(1).poke(9.U(8.W))
-      p.io.omega(2).poke(13.U(8.W))
-      p.io.omega(3).poke(7.U(8.W))
+      p.io.omega(2).poke(13.U(8.W)) //81%17
+      p.io.omega(3).poke(15.U(8.W)) //729%19=15
 
       p.io.mod.poke(17.U(8.W))
 
@@ -54,14 +54,14 @@ class FNTT_8pointTB extends AnyFlatSpec with ChiselScalatestTester {
       p.clock.step(20)
 
       p.io.outData(0).expect(11.U(8.W))
-      p.io.outData(1).expect(16.U(8.W))
+      p.io.outData(1).expect(1.U(8.W))
       p.io.outData(2).expect(12.U(8.W))
-      p.io.outData(3).expect(12.U(8.W))
+      p.io.outData(3).expect(3.U(8.W))
 
       p.io.outData(4).expect(13.U(8.W))
-      p.io.outData(5).expect(8.U(8.W))
+      p.io.outData(5).expect(6.U(8.W))
       p.io.outData(6).expect(14.U(8.W))
-      p.io.outData(7).expect(16.U(8.W))
+      p.io.outData(7).expect(8.U(8.W))
 
     }
   }

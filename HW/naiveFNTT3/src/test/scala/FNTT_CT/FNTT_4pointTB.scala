@@ -1,4 +1,4 @@
-package FNTT
+package FNTT_CT
 import chisel3._
 import chiseltest._
 

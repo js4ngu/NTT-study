@@ -1,5 +1,6 @@
-package FNTT
+package FNTT_CT
 import chisel3._
+//Number Theoretic Transform and Its Applications in Lattice-based Cryptosystems: A Survey - Fig6.a
 
 class FNTT_4point(width : Int) extends Module {
   val io = IO(new Bundle() {
@@ -27,8 +28,8 @@ class FNTT_4point(width : Int) extends Module {
   BF(1).io.inData(1) := io.inData(3)
 
   modBuffer_0(0).io.inData := BF(0).io.outData(0)
-  modBuffer_0(1).io.inData := BF(0).io.outData(1) * omeaaReg(0)
-  modBuffer_0(2).io.inData := BF(1).io.outData(0)
+  modBuffer_0(1).io.inData := BF(0).io.outData(1)
+  modBuffer_0(2).io.inData := BF(1).io.outData(0) * omeaaReg(0)
   modBuffer_0(3).io.inData := BF(1).io.outData(1) * omeaaReg(1)
 
   //stage1

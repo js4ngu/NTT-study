@@ -1,4 +1,4 @@
-package FNTT
+package FNTT_GS
 import chisel3._
 
 class Butterfly_2point(width : Int) extends Module {

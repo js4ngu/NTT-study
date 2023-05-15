@@ -1,4 +1,4 @@
-package FNTT
+package FNTT_GS
 import chisel3._
 
 class modular(width : Int) extends Module {
