@@ -1,7 +1,8 @@
 package FNTT_CT
+package FNTTSupport
+
 import chisel3._
 import chiseltest._
-
 import org.scalatest.flatspec.AnyFlatSpec
 
 class FNTT_4pointTB extends AnyFlatSpec with ChiselScalatestTester {

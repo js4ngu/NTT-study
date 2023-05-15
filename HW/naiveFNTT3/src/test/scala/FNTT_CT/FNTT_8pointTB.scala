@@ -1,7 +1,7 @@
 package FNTT_CT
+package FNTTSupport
 import chisel3._
 import chiseltest._
-
 import org.scalatest.flatspec.AnyFlatSpec
 
 class FNTT_4pointFor8pointTB extends AnyFlatSpec with ChiselScalatestTester {
@@ -43,12 +43,12 @@ class FNTT_8pointTB extends AnyFlatSpec with ChiselScalatestTester {
 
       //Data Injecton
       p.io.inData(0).poke(0.U(8.W))
-      p.io.inData(1).poke(4.U(8.W))
+      p.io.inData(1).poke(1.U(8.W))
       p.io.inData(2).poke(2.U(8.W))
-      p.io.inData(3).poke(6.U(8.W))
-      p.io.inData(4).poke(1.U(8.W))
+      p.io.inData(3).poke(3.U(8.W))
+      p.io.inData(4).poke(4.U(8.W))
       p.io.inData(5).poke(5.U(8.W))
-      p.io.inData(6).poke(3.U(8.W))
+      p.io.inData(6).poke(6.U(8.W))
       p.io.inData(7).poke(7.U(8.W))
 
       p.clock.step(20)

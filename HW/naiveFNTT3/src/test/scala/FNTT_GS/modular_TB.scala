@@ -1,9 +1,6 @@
 package FNTT_GS
 import chisel3._
 import chiseltest._
-
-import FNTT_GS.modular
-
 import org.scalatest.flatspec.AnyFlatSpec
 
 class modularTB extends AnyFlatSpec with ChiselScalatestTester {
