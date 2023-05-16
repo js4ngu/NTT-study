@@ -82,7 +82,6 @@ class FNTT_FINTT_8paointTB extends AnyFlatSpec with ChiselScalatestTester {
       p.io.outData(1).expect(1.U(8.W))
       p.io.outData(2).expect(2.U(8.W))
       p.io.outData(3).expect(3.U(8.W))
-
       p.io.outData(4).expect(4.U(8.W))
       p.io.outData(5).expect(5.U(8.W))
       p.io.outData(6).expect(6.U(8.W))
