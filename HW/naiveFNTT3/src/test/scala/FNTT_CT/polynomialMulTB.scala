@@ -35,14 +35,14 @@ class polynomialMulTB extends AnyFlatSpec with ChiselScalatestTester {
       p.io.inData(0)(7).poke(0.U(8.W))
 
       //Data Injecton
-      p.io.inData(0)(0).poke(3.U(8.W))
-      p.io.inData(0)(1).poke(2.U(8.W))
-      p.io.inData(0)(2).poke(2.U(8.W))
-      p.io.inData(0)(3).poke(0.U(8.W))
-      p.io.inData(0)(4).poke(0.U(8.W))
-      p.io.inData(0)(5).poke(0.U(8.W))
-      p.io.inData(0)(6).poke(0.U(8.W))
-      p.io.inData(0)(7).poke(0.U(8.W))
+      p.io.inData(1)(0).poke(3.U(8.W))
+      p.io.inData(1)(1).poke(2.U(8.W))
+      p.io.inData(1)(2).poke(2.U(8.W))
+      p.io.inData(1)(3).poke(0.U(8.W))
+      p.io.inData(1)(4).poke(0.U(8.W))
+      p.io.inData(1)(5).poke(0.U(8.W))
+      p.io.inData(1)(6).poke(0.U(8.W))
+      p.io.inData(1)(7).poke(0.U(8.W))
 
       p.clock.step(20)
 
