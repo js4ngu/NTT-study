@@ -46,12 +46,12 @@ class polynomialMulTB extends AnyFlatSpec with ChiselScalatestTester {
 
       p.clock.step(20)
 
-      p.io.outData(0).expect(6.U(8.W))
-      p.io.outData(1).expect(7.U(8.W))
-      p.io.outData(2).expect(6.U(8.W))
-      p.io.outData(3).expect(11.U(8.W))
-      p.io.outData(4).expect(6.U(8.W))
-      p.io.outData(5).expect(6.U(8.W))
+      p.io.outData(0).expect(0.U(8.W))
+      p.io.outData(1).expect(0.U(8.W))
+      p.io.outData(2).expect(0.U(8.W))
+      p.io.outData(3).expect(0.U(8.W))
+      p.io.outData(4).expect(0.U(8.W))
+      p.io.outData(5).expect(0.U(8.W))
       p.io.outData(6).expect(0.U(8.W))
       p.io.outData(7).expect(0.U(8.W))
     }

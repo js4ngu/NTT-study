@@ -19,12 +19,15 @@ class polynomialMul(width : Int) extends Module {
   val modBuffer1 = Vector.fill(8)(Module(new modular(width)))
 
   for (i <- 0 until 8) modBuffer0(i).io.mod := io.mod
+  for (i <- 0 until 8) modBuffer1(i).io.mod := io.mod
+
   for(i <- 0 until 3) ntt(i).io.mod := io.mod
 
   //ntt setting
   for(i <- 0 until 2) {
     for(j <- 0 until 4) {
       ntt(i).io.omega(j) := io.omega(j)
+      ntt(i).io.invN := io.invN
       ntt(i).io.mode := true.B
     }
   }
@@ -43,7 +46,7 @@ class polynomialMul(width : Int) extends Module {
   //invTransform
   for (i <- 0 until 8) {
     ntt(2).io.inData(i) := modBuffer0(i).io.outData
-    ntt(2).io.outData(i) := modBuffer1(i).io.inData
+    modBuffer1(i).io.inData := ntt(2).io.outData(i)
   }
 
   //out
