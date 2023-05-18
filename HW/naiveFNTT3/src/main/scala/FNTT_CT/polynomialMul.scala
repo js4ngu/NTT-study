@@ -1,6 +1,6 @@
 package FNTT_CT
 import chisel3._
-
+/*
 class polynomialMul(width : Int) extends Module {
   val io = IO(new Bundle() {
     val inData = Input(Vec(2, Vec(8, UInt(width.W))))
@@ -14,7 +14,7 @@ class polynomialMul(width : Int) extends Module {
   })
 
   //common setting
-  val ntt = Vector.fill(3)(Module(new FNTT_FINTT_8point(width)))
+  val ntt = Vector.fill(3)(Module(new FNTT_8point(width)))
   val modBuffer0 = Vector.fill(8)(Module(new modular(width)))
   val modBuffer1 = Vector.fill(8)(Module(new modular(width)))
 
@@ -52,3 +52,4 @@ class polynomialMul(width : Int) extends Module {
   //out
   for (i <- 0 until 8) io.outData(i) := modBuffer1(i).io.outData
 }
+*/

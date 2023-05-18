@@ -3,7 +3,7 @@ import chisel3._
 import chiseltest._
 import firrtl.Utils.False
 import org.scalatest.flatspec.AnyFlatSpec
-
+/*
 class polynomialMulTB extends AnyFlatSpec with ChiselScalatestTester {
   behavior of "polynomialMulTB"
   it should "polynomialMul ex" in {
@@ -57,3 +57,4 @@ class polynomialMulTB extends AnyFlatSpec with ChiselScalatestTester {
     }
   }
 }
+*/
